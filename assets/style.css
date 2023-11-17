@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,7 +8,7 @@
 }
 
 body {
-  background: #f4faf1;
+  background: #EFEEFC;
   color: #4f0461;
   ;
   margin: 0;
@@ -17,17 +18,17 @@ body {
 
 .home {
   display: flex;
-  background: url("https://source.unsplash.com/720x600/?white, pattern") repeat
-    center;
+  background: url("https://source.unsplash.com/720x600/?white, pattern") repeat center;
   height: 3vh;
-  color:rgb(12, 12, 12);
+  color: rgb(12, 12, 12);
   min-height: 100px;
   background-size: cover;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   font-weight: bolder;
-  text-align: center; 
+  text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
+
 .home .max-width {
   width: 100%;
   display: flex;
@@ -66,7 +67,7 @@ header h4 {
   margin: auto;
 }
 
-#startScreen h1{
+#startScreen h1 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -81,11 +82,11 @@ h1 {
 p {
   color: #0a0808c5;
   font-size: 1.5rem;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
 
-.button{
+.button {
   margin-top: 25px;
   display: flex;
   justify-content: center;
@@ -118,7 +119,7 @@ p {
 
 .question-part {
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 15px;
   flex-direction: column;
   width: 60%;
@@ -172,16 +173,18 @@ p {
   text-align: left;
   font-size: 3.0vw;
 }
+
 .high-score-container {
   padding: 0;
   margin: auto;
   display: inline-block;
 }
+
 .high-score {
   padding: auto;
   margin: auto;
   font-size: 3rem;
-  display:inline-block;
+  display: inline-block;
 }
 
 ol {
@@ -200,20 +203,30 @@ li:nth-child(odd) {
 
 li {
   font-size: 3.0vw;
-  display:list-item;
+  display: list-item;
 }
 
-#go-back{
+#go-back {
   justify-content: center;
   margin: 5px;
   padding: 24px 24px;
   color: rgb(255, 255, 255);
 }
-#clear-high-score{
+
+#clear-high-score {
   margin: 5px;
   padding: 24px 24px;
   color: rgb(255, 255, 255);
   padding-right: 20px;
+}
+
+.score h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.initial {
+  margin-top: 15px;
 }
 
 /*----------------------------- Last Container */
@@ -244,9 +257,17 @@ li {
   color: hsl(0, 5%, 72%);
 }
 
+#correct h2 {
+  text-align: center;
+}
+
 #wrong {
   border: none;
   color: hsl(0, 5%, 72%);
+}
+
+#wrong h2 {
+  text-align: center;
 }
 
 /*--------------------------------------- Media Query */
